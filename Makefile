@@ -31,4 +31,4 @@ adjoined.csv: \
      > $@
 
 adjoined/%.csv:
-	python adjoin.py $@ All_Geographies/g$*.csv All_Geographies/e$*???????.txt
+	python adjoin.py $@ All_Geographies/g$*.csv All_Geographies/e$*???????.txt All_Geographies/m$*???????.txt
